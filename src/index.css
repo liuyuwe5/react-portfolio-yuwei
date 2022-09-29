@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    
 }
 
 :root {
@@ -75,6 +76,7 @@ section > h2 {
 a {
     counter-reset: var(--color-primary);
     transition: var(--transition);
+    color: var(--color-primary)
 }
 
 a:hover {
