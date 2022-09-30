@@ -111,7 +111,7 @@ img {
     object-fit: cover;
 }
 
-/* ========== MEDIA ========== */
+/* ========== MEDIA (medium) ========== */
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
@@ -119,6 +119,18 @@ img {
 
     section > h2 {
         margin-top: 6rem;
+    }
+    
+}
+
+/* ========== MEDIA (small) ========== */
+@media screen and (max-width: 600px){
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section > h2 {
+        margin-top: 2rem;
     }
     
 }
